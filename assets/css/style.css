@@ -1,0 +1,60 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+position:absolute;
+top: 100px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 100px;
+text-decoration: underline;
+color: rgb(0, 0, 0);
+}
+
+
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 900px;
+  max-width: 70%;
+  background-color: rgb(41, 63, 185);
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: bolder;
+  margin-top: 200px;
+}
+
+.btn-grid{
+  display: flex;
+  grid-template-columns:repeat(2, auto);
+  gap: 15px;
+}
+
+.btn {
+  border: 1px solid;
+}
+
+.start-btn, .next-btn{
+  background-color: blueviolet;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.controls {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide{
+  display: none;
+}
