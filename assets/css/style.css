@@ -23,6 +23,13 @@ body{
   justify-content: center;
 }
 
+.countdown-timer{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+margin-top: 100px;
+}
+
 .container {
   width: 900px;
   max-width: 70%;
